@@ -61,6 +61,8 @@ After cutting the tree into groups, next step is to find out the cluster goodnes
 
 * A value of Si close to 1 indicates that the project is well clustered. In the other words, the object i is similar to the other objects in its group. A value of Si close to -1 indicates that the object is poorly clustered, and that assigment to some other cluster would probably improve the overall results.
 
+![image](https://user-images.githubusercontent.com/86511074/169060857-a6b19c1d-4682-426a-839d-d68812a4ec87.png)
+
 So we need to repeat the same script for both datasets!!!!
 
 
