@@ -39,6 +39,10 @@ Selecting optimum number of clusters, from the screenplot by looking at the elbo
 
 ![image](https://user-images.githubusercontent.com/86511074/169052377-bc302db0-5dc1-42bc-84ba-704fe6435d49.png)
 
+Once getting a cluster solution, apply silhouette score on the cluster result and make conclusions around how good the cluster solution is. Knowing the distance function that works best is difficult task, hence it is safe to try different distance functions to calculate the cluster membership, and compute the silhouette score, the best will be automatically decided
+
+![image](https://user-images.githubusercontent.com/86511074/169053455-8c0e3962-d709-4005-b789-6d543d48060b.png)
+
 
 
 
