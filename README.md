@@ -43,6 +43,26 @@ Once getting a cluster solution, apply silhouette score on the cluster result an
 
 ![image](https://user-images.githubusercontent.com/86511074/169053455-8c0e3962-d709-4005-b789-6d543d48060b.png)
 
+Within sum of squares are the distances of individual data values from the cluster center points/ centroid and take the distance, square the values and sum the squared distances.
+
+
+For cluster model deployment we are using an API ( **restful API** ) using PMML ( **Predictive Model Markup Language - XML based predictive model** ) and calling custom functions from external applications such as T-SQL ( **Transact-SQL is Microsoft and Sybase's proprietary extension to the SQL used to interact with relational databases** ).
+
+**METHODS OF HEIRARCHICAL CLUSTERING USED HERE** :
+* **Agglomorative method** : This is a "bottom-up" approach where each observation starts in its own cluster, and pairs of clusters are merged as one moves up the heiarchy.
+* **Divisive method** : This is a "top-down" approach where all observations start in one cluster, and splits are performed recursively as one moves down the heirarchy.
+
+![image](https://user-images.githubusercontent.com/86511074/169058436-b74fed1f-027b-49ca-90a0-08b8bad77248.png)
+
+After cutting the tree into groups, next step is to find out the cluster goodness using silhouette score on the raw dataset, instead of the normalized dataset.
+
+**CLUSTERING VALIDATION STATISTICS**:
+* The silhouette plot is one of the many measures for inspecting and validating clustering results. Recall that the silhouette (Si) measures how similar an object i is to the other objects in its own cluster versus those in the neighbour cluster. Si values range from 1 to -1.
+
+* A value of Si close to 1 indicates that the project is well clustered. In the other words, the object i is similar to the other objects in its group. A value of Si close to -1 indicates that the object is poorly clustered, and that assigment to some other cluster would probably improve the overall results.
+
+So we need to repeat the same script for both datasets!!!!
+
 
 
 
