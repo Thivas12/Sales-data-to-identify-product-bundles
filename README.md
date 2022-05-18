@@ -35,4 +35,10 @@ So to select the value of K, a screenplot approach is being used. Screenplot sho
 
 ![image](https://user-images.githubusercontent.com/86511074/169051287-14747e6e-32e7-446a-81ab-b6cd4365da1f.png)
 
+Selecting optimum number of clusters, from the screenplot by looking at the elbow point, once it is decided then create clusters and report the cluster goodness. How do we know the clusters that we have created are good clusters? To know the goodness of the clusters, we need to run a function called silhouette score, this score ranges from -1 to +1. -1 being the worst clusters and +1 being the best clusters. 0 being clusters with overlapping members.
+
+![image](https://user-images.githubusercontent.com/86511074/169052377-bc302db0-5dc1-42bc-84ba-704fe6435d49.png)
+
+
+
 
