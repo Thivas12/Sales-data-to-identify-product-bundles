@@ -11,7 +11,7 @@ The sales transaction dataset have weekly purchased quantities of 800 products o
 **DATA PRE-PROCESSING** :
            It is a data mining technique which is used to transform the raw data in useful and efficient format. It usually involves three steps
            
-    ![image](https://user-images.githubusercontent.com/86511074/169047761-37a02ef2-7f06-4d4c-a03d-1c9505a1539b.png)
+   ![image](https://user-images.githubusercontent.com/86511074/169047761-37a02ef2-7f06-4d4c-a03d-1c9505a1539b.png)
 
 Here we are using clustering for data cleaning of noisy data, There are different techniques for clustering,
 * Partition based methods
