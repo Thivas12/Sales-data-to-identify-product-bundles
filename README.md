@@ -23,7 +23,7 @@ We are using K means clustering ( **a type of unsupervised learning, which is us
 * stats - Kmeans
 * AMAP - Kmeans
 
-** STEPS INVOLVED IN K-MEANS ALGORITHM **
+**STEPS INVOLVED IN K-MEANS ALGORITHM**
 * Step 1 : To identify the value of K
 * Step 2 : How to select K
 * Step 3 : Decide the distance function
