@@ -8,7 +8,7 @@ The sales transaction dataset have weekly purchased quantities of 800 products o
 
 # Timeline
 
-* **DATA PRE-PROCESSING
+* **DATA PRE-PROCESSING** :
            It is a data mining technique which is used to transform the raw data in useful and efficient format. It usually involves three steps
            
     ![image](https://user-images.githubusercontent.com/86511074/169047761-37a02ef2-7f06-4d4c-a03d-1c9505a1539b.png)
@@ -23,7 +23,7 @@ We are using K means clustering ( **a type of unsupervised learning, which is us
 * stats - Kmeans
 * AMAP - Kmeans
 
-** STEPS INVOLVED IN K-MEANS ALGORITHM
+** STEPS INVOLVED IN K-MEANS ALGORITHM **
 * Step 1 : To identify the value of K
 * Step 2 : How to select K
 * Step 3 : Decide the distance function
