@@ -31,3 +31,8 @@ We are using K means clustering ( **a type of unsupervised learning, which is us
 * Step 5 : Get clusters
 * Step 6 : Make profiling
 
+So to select the value of K, a screenplot approach is being used. Screenplot shows the within group of sum of squares with the corresponding number of clusters. As the number of cluster increases, the within sum of squares(wss) will decrease eventually a point will come where the wss will not drop further that is the optimal scenario when the cluster is giving us best result.
+
+![image](https://user-images.githubusercontent.com/86511074/169051287-14747e6e-32e7-446a-81ab-b6cd4365da1f.png)
+
+
